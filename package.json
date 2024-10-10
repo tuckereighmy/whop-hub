@@ -1,7 +1,7 @@
 {
+  "homepage": "https://tuckereighmy.github.io/whop-hub",
   "name": "tuck-hub",
   "version": "0.1.0",
-  "homepage": "https://tuckereighmy.github.io/whop-hub",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "embla-carousel-react": "^8.3.0",
