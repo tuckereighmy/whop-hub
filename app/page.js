@@ -15,7 +15,7 @@ const navigation = [
   { name: 'SoundCloud', href: 'https://soundcloud.com/uckerighmy', icon: '/assets/soundcloud.svg', current: false },
 ]
 const teams = [
-  { id: 1, name: 'Cover Letter', href: 'cover.js', initial: 'CL', current: false },
+  { id: 1, name: 'Cover Letter', href: '/assets/Whop - Tucker Eighmy Cover Letter.pdf', initial: 'CL', current: false },
 ]
 
 function classNames(...classes) {
@@ -227,7 +227,7 @@ export default function Example() {
     <div className="flex flex-col items-center mr-8">
         {/* First button and text */}
         <a
-          href="#"
+          href="/assets/Whop - Tucker Eighmy Cover Letter.pdf"
           className="relative block w-32 h-32 rounded-3xl border-2 border-solid border-neutral-600 text-center hover:border-neutral-500 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2 m-2 bg-neutral-800 text-white font-[Inter] flex items-center justify-center"
         >
           <span className="text-4xl font-bold text-neutral-400">CL</span>
